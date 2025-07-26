@@ -1,0 +1,182 @@
+{
+  "zodiac_signs": {
+    "aries": {
+      "name": "Aries",
+      "emoji": "♈",
+      "element": "Fire",
+      "dates": "March 21 - April 19",
+      "work_traits": ["Natural leader", "Initiative-driven", "Competitive", "Quick decision maker", "Impatient with details"],
+      "strengths": ["Leadership", "Innovation", "Energy", "Confidence"],
+      "challenges": ["Impatience", "Impulsiveness", "Ego clashes"]
+    },
+    "taurus": {
+      "name": "Taurus",
+      "emoji": "♉",
+      "element": "Earth",
+      "dates": "April 20 - May 20",
+      "work_traits": ["Reliable", "Detail-oriented", "Resistant to change", "Methodical", "Practical"],
+      "strengths": ["Consistency", "Thoroughness", "Stability", "Patience"],
+      "challenges": ["Stubbornness", "Slow adaptation", "Routine-bound"]
+    },
+    "gemini": {
+      "name": "Gemini",
+      "emoji": "♊",
+      "element": "Air",
+      "dates": "May 21 - June 20",
+      "work_traits": ["Adaptable", "Communicative", "Multi-tasker", "Curious", "Easily bored"],
+      "strengths": ["Communication", "Flexibility", "Learning", "Networking"],
+      "challenges": ["Inconsistency", "Scattered focus", "Commitment issues"]
+    },
+    "cancer": {
+      "name": "Cancer",
+      "emoji": "♋",
+      "element": "Water",
+      "dates": "June 21 - July 22",
+      "work_traits": ["Intuitive", "Protective", "Team-oriented", "Emotional", "Nurturing"],
+      "strengths": ["Empathy", "Team building", "Intuition", "Loyalty"],
+      "challenges": ["Mood swings", "Takes things personally", "Overly protective"]
+    },
+    "leo": {
+      "name": "Leo",
+      "emoji": "♌",
+      "element": "Fire",
+      "dates": "July 23 - August 22",
+      "work_traits": ["Charismatic", "Ambitious", "Creative", "Dramatic", "Needs recognition"],
+      "strengths": ["Charisma", "Creativity", "Motivation", "Leadership"],
+      "challenges": ["Ego", "Attention-seeking", "Drama creation"]
+    },
+    "virgo": {
+      "name": "Virgo",
+      "emoji": "♍",
+      "element": "Earth",
+      "dates": "August 23 - September 22",
+      "work_traits": ["Perfectionist", "Analytical", "Organized", "Critical", "Service-oriented"],
+      "strengths": ["Attention to detail", "Organization", "Analysis", "Problem-solving"],
+      "challenges": ["Perfectionism", "Over-criticism", "Anxiety"]
+    },
+    "libra": {
+      "name": "Libra",
+      "emoji": "♎",
+      "element": "Air",
+      "dates": "September 23 - October 22",
+      "work_traits": ["Diplomatic", "Collaborative", "Indecisive", "Aesthetic", "Fair-minded"],
+      "strengths": ["Diplomacy", "Collaboration", "Balance", "Aesthetics"],
+      "challenges": ["Indecision", "Conflict avoidance", "People-pleasing"]
+    },
+    "scorpio": {
+      "name": "Scorpio",
+      "emoji": "♏",
+      "element": "Water",
+      "dates": "October 23 - November 21",
+      "work_traits": ["Intense", "Secretive", "Investigative", "Determined", "Transformative"],
+      "strengths": ["Determination", "Investigation", "Transformation", "Focus"],
+      "challenges": ["Secretiveness", "Intensity", "Trust issues"]
+    },
+    "sagittarius": {
+      "name": "Sagittarius",
+      "emoji": "♐",
+      "element": "Fire",
+      "dates": "November 22 - December 21",
+      "work_traits": ["Optimistic", "Adventurous", "Philosophical", "Restless", "Big-picture thinker"],
+      "strengths": ["Vision", "Optimism", "Adventure", "Learning"],
+      "challenges": ["Restlessness", "Lack of focus", "Over-promising"]
+    },
+    "capricorn": {
+      "name": "Capricorn",
+      "emoji": "♑",
+      "element": "Earth",
+      "dates": "December 22 - January 19",
+      "work_traits": ["Ambitious", "Disciplined", "Traditional", "Status-conscious", "Goal-oriented"],
+      "strengths": ["Discipline", "Goal achievement", "Leadership", "Structure"],
+      "challenges": ["Rigidity", "Workaholism", "Status obsession"]
+    },
+    "aquarius": {
+      "name": "Aquarius",
+      "emoji": "♒",
+      "element": "Air",
+      "dates": "January 20 - February 18",
+      "work_traits": ["Innovative", "Independent", "Humanitarian", "Eccentric", "Future-focused"],
+      "strengths": ["Innovation", "Independence", "Vision", "Humanitarianism"],
+      "challenges": ["Detachment", "Rebellion", "Unpredictability"]
+    },
+    "pisces": {
+      "name": "Pisces",
+      "emoji": "♓",
+      "element": "Water",
+      "dates": "February 19 - March 20",
+      "work_traits": ["Intuitive", "Creative", "Compassionate", "Dreamy", "Adaptable"],
+      "strengths": ["Creativity", "Intuition", "Compassion", "Adaptability"],
+      "challenges": ["Lack of boundaries", "Escapism", "Sensitivity"]
+    }
+  },
+  "compatibility_matrix": {
+    "aries": {
+      "aries": 75, "taurus": 60, "gemini": 85, "cancer": 65, "leo": 90, "virgo": 55,
+      "libra": 80, "scorpio": 70, "sagittarius": 95, "capricorn": 65, "aquarius": 85, "pisces": 60
+    },
+    "taurus": {
+      "aries": 60, "taurus": 70, "gemini": 50, "cancer": 85, "leo": 65, "virgo": 90,
+      "libra": 75, "scorpio": 80, "sagittarius": 55, "capricorn": 95, "aquarius": 45, "pisces": 85
+    },
+    "gemini": {
+      "aries": 85, "taurus": 50, "gemini": 75, "cancer": 60, "leo": 80, "virgo": 60,
+      "libra": 90, "scorpio": 65, "sagittarius": 85, "capricorn": 55, "aquarius": 95, "pisces": 70
+    },
+    "cancer": {
+      "aries": 65, "taurus": 85, "gemini": 60, "cancer": 80, "leo": 70, "virgo": 85,
+      "libra": 75, "scorpio": 95, "sagittarius": 55, "capricorn": 75, "aquarius": 60, "pisces": 90
+    },
+    "leo": {
+      "aries": 90, "taurus": 65, "gemini": 80, "cancer": 70, "leo": 75, "virgo": 60,
+      "libra": 85, "scorpio": 80, "sagittarius": 95, "capricorn": 70, "aquarius": 85, "pisces": 65
+    },
+    "virgo": {
+      "aries": 55, "taurus": 90, "gemini": 60, "cancer": 85, "leo": 60, "virgo": 80,
+      "libra": 70, "scorpio": 85, "sagittarius": 50, "capricorn": 95, "aquarius": 65, "pisces": 75
+    },
+    "libra": {
+      "aries": 80, "taurus": 75, "gemini": 90, "cancer": 75, "leo": 85, "virgo": 70,
+      "libra": 85, "scorpio": 70, "sagittarius": 80, "capricorn": 65, "aquarius": 90, "pisces": 80
+    },
+    "scorpio": {
+      "aries": 70, "taurus": 80, "gemini": 65, "cancer": 95, "leo": 80, "virgo": 85,
+      "libra": 70, "scorpio": 85, "sagittarius": 65, "capricorn": 85, "aquarius": 70, "pisces": 95
+    },
+    "sagittarius": {
+      "aries": 95, "taurus": 55, "gemini": 85, "cancer": 55, "leo": 95, "virgo": 50,
+      "libra": 80, "scorpio": 65, "sagittarius": 90, "capricorn": 60, "aquarius": 90, "pisces": 70
+    },
+    "capricorn": {
+      "aries": 65, "taurus": 95, "gemini": 55, "cancer": 75, "leo": 70, "virgo": 95,
+      "libra": 65, "scorpio": 85, "sagittarius": 60, "capricorn": 85, "aquarius": 60, "pisces": 75
+    },
+    "aquarius": {
+      "aries": 85, "taurus": 45, "gemini": 95, "cancer": 60, "leo": 85, "virgo": 65,
+      "libra": 90, "scorpio": 70, "sagittarius": 90, "capricorn": 60, "aquarius": 80, "pisces": 75
+    },
+    "pisces": {
+      "aries": 60, "taurus": 85, "gemini": 70, "cancer": 90, "leo": 65, "virgo": 75,
+      "libra": 80, "scorpio": 95, "sagittarius": 70, "capricorn": 75, "aquarius": 75, "pisces": 85
+    }
+  },
+  "compatibility_descriptions": {
+    "high": [
+      "{sign1} + {sign2}: A cosmic match made in the office! 🌟",
+      "{sign1} + {sign2}: These two just click in the workplace! ✨",
+      "{sign1} + {sign2}: Power duo alert! They complement each other perfectly. 🚀",
+      "{sign1} + {sign2}: When they team up, magic happens! 💫"
+    ],
+    "medium": [
+      "{sign1} + {sign2}: They'll figure it out with some cosmic alignment. 🌙",
+      "{sign1} + {sign2}: Different approaches, but it could work! 🌈",
+      "{sign1} + {sign2}: Requires some planetary patience, but promising! ⭐",
+      "{sign1} + {sign2}: An interesting cosmic combination! 🌸"
+    ],
+    "low": [
+      "{sign1} + {sign2}: Chaos meets control — it might just work... maybe! 😅",
+      "{sign1} + {sign2}: Opposite energies that could either clash or create sparks! ⚡",
+      "{sign1} + {sign2}: This pairing needs a good astrologer on speed dial! 🔮",
+      "{sign1} + {sign2}: Different planets, different vibes — proceed with cosmic caution! 🌪️"
+    ]
+  }
+}
