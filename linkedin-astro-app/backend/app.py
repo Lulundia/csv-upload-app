@@ -6,6 +6,11 @@ import asyncio
 from datetime import datetime
 from typing import Dict, List, Any
 import time
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Import models
 from models.profile import BatchProfileRequest, ProfileWithZodiac, LinkedInProfile
